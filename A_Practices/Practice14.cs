@@ -50,7 +50,7 @@ foreach (var item in q)
 Console.WriteLine("Процессоры, ядра которых больше 1: ");
 foreach (string item in q)
 {
-    if (int.Parse(item.Split(" ")[3]) > 1)
+    if (int.Parse(item.Split(' ')[3]) > 1)
     {
         Console.WriteLine(item);
     }
