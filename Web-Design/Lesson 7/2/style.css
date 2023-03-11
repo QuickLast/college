@@ -1,0 +1,15 @@
+img {
+    height: 300px;
+}
+
+h1 {
+    color: rgb(0, 115, 187);
+}
+
+.third, .first {
+    border-bottom: 10px solid rgb(0, 115, 187);
+}
+
+.second {
+    border: 5px solid rgb(255, 137, 157);
+}

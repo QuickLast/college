@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta  content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+        <div >
+            <div class="">
+                <h2  >Анкета посетителя ресторана</h2></div>
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <div >
+                    <label>Имя</label>
+                    <input type="text">
+                </div>
+                <div >
+                    <label>Телефон</label>
+                    <input type="text" placeholder='+7-900-000-00-00'   >
+                </div>
+                <div >
+                    <label>Email</label>
+                    <input type="email">
+                </div>
+                <div >
+                    <label>Дата посещения</label>
+                    <input type="date">
+                </div>
+                <div >
+                    <label>Время посещения</label>
+                    <input type="time">
+                </div>
+                <div >
+                    <label>Ваше фото (опционально)</label>
+                    <input type="file">
+                </div>
+            </fieldset>  
+            <fieldset>
+                <legend>Персональная информация</legend>
+            <div >
+                <label>Возраст</label>
+                <input type="number" min="1" max="100" step="1" >
+            </div>
+            <div >
+                <label>Любимая кухня</label>
+                <select   >
+                    <option value="option-1" selected="true" >Русская</option>
+                    <option value="option-2" >Европейская</option>
+                    <option value="option-3" >Китайская</option>
+                    <option value="option-4" >Японская</option>
+                    <option value="option-5" >Другая</option>
+                </select>
+            </div>
+            <div >
+                <label>Какие блюда Вы хотели бы увидеть в меню?</label>
+                <textarea type="textarea"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Оценка нашего заведения</legend>
+                <div >
+                    <label>Почему Вы выбрали наше заведение?</label>
+                    <div >
+                        <div >
+                            <input value="option-1" type="checkbox" checked="checked">
+                            <label >Недалеко от дома/работы</label>
+                        </div>
+                        <div >
+                            <input value="option-2" type="checkbox">
+                            <label >Увидел рекламу</label>
+                        </div>
+                        <div >
+                            <input value="option-3" type="checkbox">
+                            <label >Посоветовали</label>
+                        </div>
+                        <div >
+                            <input value="option-4" type="checkbox">
+                            <label >Оптимальное соотношение цены и качества</label>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <label>Вы будете рекомендовать наше заведение своим знакомым?</label>
+                    <div >
+                        <div >
+                            <input value="option-1" type="radio" checked="checked">
+                            <label >Да</label>
+                        </div>
+                        <div >
+                            <input value="option-2" type="radio">
+                            <label >Нет</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <div >
+                <button type="submit" value="Отправить" onclick="window.location.href = 'index.html'">Отправить</button>
+                <button type="reset">Сброс</button>          
+            </div>
+        </form>
+
+    </body>
+</html>

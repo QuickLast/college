@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    width: fit-content;
+  }
+
+
+.underline-one {
+	color: #000000; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    font-family: Helvetica, sans-serif;
+    font-size:18px; 
+    font-weight: 20; 
+    line-height: 18px; 
+}
+
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: rgb(88, 88, 88); /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: rgb(108, 108, 108); /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+     
+
+h1 { color: white; font-family: Helvetica, sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    font-weight: 20; 
+    line-height: 32px; 
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px; font-weight: 40; line-height: 72px; margin: 0 0 24px; text-align: center;
+}
+a:hover { color: #424242; text-decoration: none; }
+
+header {
+    background-color: grey;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+header nav {
+    padding: 10px;
+    background-color: white;
+}
+
+header nav::first-letter {
+    color: grey;
+}
+
+ul {
+    list-style-type: upper-roman;
+  }
+
+.text1 {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    font-weight: 20; 
+    line-height: 32px; 
+}
+
+.text1::first-line {
+    color: grey;
+}
+
+.text2 {
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 40%;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    font-weight: 20; 
+    line-height: 32px; 
+}
+
+.footer{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 100%;
+    float: left;
+}
+
+.footer img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#send { 
+    margin-left: 20px;
+}
+ 
+footer {
+    margin-top: 30px;
+    width: fit-content;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px; 
+    font-weight: 20; 
+    line-height: 32px; 
+}
+
+.btn {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #070707;
+	background-color: #ededed;
+	box-shadow: 0 2px #3e3e3e;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+.btn:hover {
+	background-color: #8d8d8d;
+}
+.btn:active {
+	background-color: #a5a5a5 !important;
+}
+.btn:focus-visible {
+	box-shadow: 0 0 0 3px rgb(214, 214, 214);
+}
+.btn:disabled {
+	background-color: #bebebe;
+	pointer-events: none;
+}

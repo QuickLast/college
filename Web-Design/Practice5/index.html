@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 5</title>
+</head>
+<body>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        nav{
+            width: 100%;
+            height: 32px;
+            background: orange;
+        }
+        nav ul{
+            margin-top: -25px;
+            list-style-type:none;
+        }
+        nav li{
+            float: left;
+            margin: 8px 20px 0;
+        }
+        nav a{
+            font-weight: bold; 
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #fff;
+        }
+        header h2{
+            color: green;
+            font-weight: bold; 
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #textarea{
+            margin-left: 40px;
+            display: inline-block;
+            padding-left: 20px;
+            width: 50%;
+        }
+        aside{
+            display: inline-block;
+            overflow: hidden;
+            width: 40%;
+            padding: 0 30px;
+            text-align: right;
+            vertical-align: top;
+        }
+        .form{
+            border: 4px double rgb(251, 226, 168);
+            background-color: rgb(255, 249, 221);
+            padding: 10px;
+            width: 300px;
+            height: 200px;
+            padding-right: 40px;
+            align-items: right;
+            margin-left: 20%;
+            margin-top: 50px;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .form p{
+            margin-right: 100px;
+        }
+        .form label{
+            margin-right: 17px;
+        }
+        .f{
+            margin-top: 15px;
+        }
+        .form2{
+            border: 4px double rgb(251, 226, 168);
+            background-color: rgb(255, 249, 221);
+            padding: 10px;
+            width: 300px;
+            height: 250px;
+            padding-right: 40px;
+            align-items: right;
+            margin-left: 20%;
+            margin-top: 50px;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .form2 p{
+            margin-right: 150px;
+        }
+        .form2 label{
+            float: left;
+            margin-left: 35px;
+        }
+        .f2{
+            margin-right: 75px;
+        }
+        footer{
+            width: 100%;
+            height: fit-content;
+            background-color: rgb(0, 86, 0);
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            margin: 0;
+            margin-top: 20px;
+        }
+    </style>
+    <section>
+        <img src="images/picture.png" alt="logo" style="width:100%;">
+    </section>
+    <nav>
+        <ul>
+            <li class="h_item"><a href="">Item One</a></li>
+            <li class="h_item"><a href="">Item Two</a></li>
+            <li class="h_item"><a href="">Item Three</a></li>
+            <li class="h_item"><a href="">Item Four</a></li>
+            <li class="h_item"><a href="">Item Five</a></li>
+            <li class="h_item"><a href="">Item Six</a></li>
+        </ul>
+    </nav>
+    <section>
+        <section id="textarea">
+            <article>
+                <header><h2>Lorem ipsum dolor sit</h2></header>
+                <p>Lorem ipsum dolor <b>sit</b> amet consectetur adipisicing elit. Sed provident doloremque <b>hic dolorum voluptatem modi</b> voluptate aliquid similique labore minus, nam, soluta autem quos explicabo vel ex possimus deserunt laudantium!</p>
+                <header><h2>Lorem ipsum dolor sit</h2></header>
+                <p>Lorem ipsum dolor <b>sit</b> amet consectetur adipisicing elit. Sed provident doloremque <b>hic dolorum voluptatem modi</b> voluptate aliquid similique labore minus, nam, soluta autem quos explicabo vel ex possimus deserunt laudantium!</p>
+                <header><h2>Lorem ipsum dolor sit</h2></header>
+                <p>Lorem ipsum dolor <b>sit</b> amet consectetur adipisicing elit. Sed provident doloremque <b>hic dolorum voluptatem modi</b> voluptate aliquid similique labore minus, nam, soluta autem quos explicabo vel ex possimus deserunt laudantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus sint nisi obcaecati eum quam. Ratione quo ipsum vel porro! Cumque velit corrupti omnis iure accusamus ad nobis culpa esse blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos cumque commodi ducimus, deserunt porro necessitatibus? Fugiat incidunt, deleniti nam hic, quod, assumenda sapiente sunt officiis in soluta consequuntur quaerat nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae similique quas quaerat necessitatibus laboriosam veritatis eveniet delectus maiores voluptate. Tenetur praesentium possimus dolorem quidem quaerat deleniti culpa voluptates saepe rem.</p>
+            </article>
+        </section>
+        <aside>
+            <div class="form">
+                <div class="">
+                    <p>Регистрация</p>
+                </div>
+                <div class="f">
+                    <label>Имя</label>
+                    <input type="text" placeholder="Иван" required="required">
+                </div>
+                <div class="f">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="email@email.com" required="required">
+                </div>
+                <div class="f">
+                    <label>Password</label>
+                    <input type="password" required="required">
+                </div>
+            </div>
+            <div class="form2">
+                <div class="">
+                    <p>Авторизация</p>
+                </div>
+                <div class="f2">
+                    <label>Ввести имя</label>
+                    <input type="text" placeholder="Иван" required="required">
+                </div>
+                <div class="f2">
+                    <label>Ввести E-mail</label>
+                    <input type="email" placeholder="email@email.com" required="required">
+                </div>
+                <div class="f2">
+                    <label>Ввести пароль</label>
+                    <input type="password" required="required">
+                </div>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p><b>Copyright 2023 Kirill Osipov, All rights reserved</b></p>
+    </footer>
+</body>
+</html>
