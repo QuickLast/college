@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdditionalTask/1.0.0": {
+        "runtime": {
+          "AdditionalTask.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdditionalTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

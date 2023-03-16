@@ -1,0 +1,15 @@
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\bin\Debug\net6.0\AdditionalTask.exe
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\bin\Debug\net6.0\AdditionalTask.deps.json
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\bin\Debug\net6.0\AdditionalTask.runtimeconfig.json
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\bin\Debug\net6.0\AdditionalTask.dll
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\bin\Debug\net6.0\AdditionalTask.pdb
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.csproj.AssemblyReference.cache
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.AssemblyInfoInputs.cache
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.AssemblyInfo.cs
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.csproj.CoreCompileInputs.cache
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.dll
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\refint\AdditionalTask.dll
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.pdb
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\AdditionalTask.genruntimeconfig.cache
+C:\Users\202113\source\repos\AdditionalTask\AdditionalTask\obj\Debug\net6.0\ref\AdditionalTask.dll
