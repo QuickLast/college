@@ -1,0 +1,31 @@
+a {
+    color: inherit;
+}
+
+.red-link:hover, .red-text:active, .red-text:first-letter {
+    color: red;
+}
+
+.red-link::selection, .red-text::selection {
+    background-color: red;
+}
+
+.green-link:hover, .green-text:first-letter, .green-text:active {
+    color: green;
+}
+
+.green-link::selection, .green-text::selection {
+    background-color: green;
+}
+
+.blue-link:hover, .blue-text:first-letter, .blue-text:active {
+    color: blue;
+}
+
+.blue-link::selection, .blue-text::selection {
+    background-color: blue;
+}
+
+.red-text:active::first-letter, .green-text:active::first-letter, .blue-text:active::first-letter {
+    color: black;
+}
