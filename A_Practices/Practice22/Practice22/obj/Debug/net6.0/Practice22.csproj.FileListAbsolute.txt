@@ -1,0 +1,15 @@
+C:\Users\202113\source\repos\Practice22\Practice22\bin\Debug\net6.0\Practice22.exe
+C:\Users\202113\source\repos\Practice22\Practice22\bin\Debug\net6.0\Practice22.deps.json
+C:\Users\202113\source\repos\Practice22\Practice22\bin\Debug\net6.0\Practice22.runtimeconfig.json
+C:\Users\202113\source\repos\Practice22\Practice22\bin\Debug\net6.0\Practice22.dll
+C:\Users\202113\source\repos\Practice22\Practice22\bin\Debug\net6.0\Practice22.pdb
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.csproj.AssemblyReference.cache
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.AssemblyInfoInputs.cache
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.AssemblyInfo.cs
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.csproj.CoreCompileInputs.cache
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.dll
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\refint\Practice22.dll
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.pdb
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\Practice22.genruntimeconfig.cache
+C:\Users\202113\source\repos\Practice22\Practice22\obj\Debug\net6.0\ref\Practice22.dll
