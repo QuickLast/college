@@ -1,0 +1,16 @@
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.csproj.AssemblyReference.cache
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.csproj.SuggestedBindingRedirects.cache
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\MainWindow.g.cs
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\App.g.cs
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27_MarkupCompile.cache
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27_MarkupCompile.lref
+C:\Users\202113\source\repos\Practice27\Practice27\bin\Debug\Practice27.exe.config
+C:\Users\202113\source\repos\Practice27\Practice27\bin\Debug\Practice27.exe
+C:\Users\202113\source\repos\Practice27\Practice27\bin\Debug\Practice27.pdb
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\MainWindow.baml
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.g.resources
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.Properties.Resources.resources
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.csproj.GenerateResource.cache
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.csproj.CoreCompileInputs.cache
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.exe
+C:\Users\202113\source\repos\Practice27\Practice27\obj\Debug\Practice27.pdb
