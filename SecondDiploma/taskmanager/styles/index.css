@@ -1,0 +1,174 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(116.82deg, #B83FAE 0%, #845EC2 100%);
+}
+
+body a {
+    color: gray;
+}
+
+
+/* index.html */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    margin-left: 70px;
+}
+
+.navbar p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.navbar button a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    box-shadow: inset 0px 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 6px 40px;
+    text-decoration: none;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.navbar button:hover {
+    background-color: transparent;
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+
+.navbar button:hover a {
+    background-color: transparent;
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+
+.navbar button:active {
+    position: relative;
+    top: 1;
+}
+
+.h-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.task-list {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.task {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: white;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    flex: 0 1 auto;
+}
+
+.task img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.task p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.task button {
+    box-shadow: inset 0px 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #0081CF;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 6px 40px;
+    text-decoration: none;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.task button:hover {
+    background-color: rgb(248, 248, 248);
+    color: black;
+}
+
+.task button:active {
+    position: relative;
+    top: 1;
+}
+
+#task-name {
+    text-decoration: none;
+    color: black
+}
+
+.task a:hover {
+    text-decoration: none;
+}
+
+.task-actions {
+    margin-top: 20px;
+}
+
+.task-actions p {
+    float: right;
+}
+
+.task-actions i {
+    margin-right: 10px;
+}

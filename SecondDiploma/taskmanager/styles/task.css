@@ -1,0 +1,240 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(116.82deg, #B83FAE 0%, #845EC2 100%);
+}
+
+a {
+    color: gray;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.navbar p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.navbar button {
+    box-shadow: inset 0px 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 6px 40px;
+    text-decoration: none;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.navbar button:hover {
+    background-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.navbar button:active {
+    position: relative;
+    top: 1;
+}
+
+.task-info {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: auto;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 40px;
+    height: fit-content;
+    position: relative;
+    padding: 10px;
+}
+
+.task-info .fa-xmark {
+    float: right;
+    padding: 20px;
+}
+
+.task-info .fa-arrow-right {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.task-info p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.task-info button {
+    box-shadow: inset 0px 0px 1px 0px #ffffff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px 55px;
+    text-decoration: none;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.task-info button:hover {
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+.task-info button:active {
+    position: relative;
+    top: 1;
+}
+
+.commentaries {
+    width: auto;
+    height: fit-content;
+    margin-right: 70px;
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+.comment {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.comment_li {
+    list-style-type: none;
+}
+
+.comment.text {
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.comment img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.comment p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.no-comment p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.commentaries p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#textarea {
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+#textarea::placeholder {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#submit {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#submit:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    padding: 20px;
+}

@@ -1,0 +1,85 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(116.82deg, #B83FAE 0%, #845EC2 100%);
+}
+
+a {
+    color: black;
+}
+
+.add-task {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    height: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.add-task i {
+    float: right;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.add-task p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.add-task form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.add-task input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.add-task input:last-child {
+    margin: 20px;
+    margin-bottom: 60px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: #0081CF;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-task input:last-child:hover {
+    margin: 20px;
+    margin-bottom: 60px;
+    border: 1px solid white;
+    width: 200px;
+    background-color: #0066a6;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
